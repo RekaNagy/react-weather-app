@@ -4,11 +4,11 @@
 
 .card-top {
     width: 100%;
-    background-color: #fff;
+    background-color: #ffff;
 }
 
 .card-top .loc {
-    background-color: rgb(144, 184, 207);
+    background-color: #ffff;
     color: #ffff;
     font-size: 14px;
 }

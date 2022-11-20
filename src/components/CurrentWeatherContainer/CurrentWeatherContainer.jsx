@@ -3,7 +3,6 @@ import CurrentWeatherBody from '../CurrentWeatherBody/CurrentWeatherBody';
 import "./CurrentWeatherContainer.css";
 import { RotatingLines } from 'react-loader-spinner';
 import FormatDate from '../FormatDate/FormatDate';
-
 import axios from 'axios';
 import Forecast from '../Forecast/Forecast';
 
@@ -84,9 +83,6 @@ const CurrentWeatherContainer = () => {
                     placeholder="Search City..."
                     onChange={ handleCityChange }
                 />
-                <button type="submit" className="search-icon">
-                    <i className="fa-solid fa-magnifying-glass"></i>
-                </button>
             </form>
             <RotatingLines
                 strokeColor="grey"
@@ -106,9 +102,6 @@ const CurrentWeatherContainer = () => {
                     placeholder="Search City..."
                     onChange={ handleCityChange }
                 />
-                <button type="submit" className="search-icon">
-                    <i className="fa-solid fa-magnifying-glass"></i>
-                </button>
             </form>
             <div className="card-weather">
                 <FormatDate date={ cityDetails.date } />
