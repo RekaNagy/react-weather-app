@@ -1,7 +1,7 @@
 .card-weather {
     background: linear-gradient(145deg,
-            rgb(255, 255, 255) 11%,
-            rgb(144, 184, 207) 91%);
+            rgb(255, 255, 255) 10%,
+            rgb(144, 184, 207) 90%);
     border-radius: 10px;
     transition: all 0.7s ease-in-out;
     margin-top: 20px;
