@@ -10,7 +10,6 @@
 }
 
 form {
-    
     position: relative;
     border: 1px solid #90b8cf;
     border-radius: 10px;
@@ -19,20 +18,7 @@ form {
     width: 100%;
 }
 
-.search-icon {
-    position: absolute;
-    right: 10px;
-    font-size: 18px;
-    top: 7px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    color: 094479;
-}
 
-#icon-current {
-    width: 150px;
-}
 
 #search {
     width: 97%;

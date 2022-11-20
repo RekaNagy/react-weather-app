@@ -4,10 +4,10 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <p className="footer-link">
-            This project was coded by Réka Nagy and it is 
+            This project was coded by Réka Nagy and it is&nbsp;
             <a href="https://github.com/RekaNagy/react-weather-app" target="_blank" rel='noreferrer'>
                 open-sourced
-            </a>{ " " }
+            </a>.{ " " }
         </p>
     )
 }
