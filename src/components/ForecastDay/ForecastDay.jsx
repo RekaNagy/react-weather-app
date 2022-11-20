@@ -19,7 +19,7 @@ const ForecastDay = (props) => {
                         className="icon"
                     />
                     <p>
-                        <span id="lower-temp">{ Math.round(props.data.temperature.minimum) } { props.unit === 'metric' ? '°C' : '°F' }</span>|{ " " }
+                        <span id="lower-temp">{ Math.round(props.data.temperature.minimum) } { props.unit === 'metric' ? '°C' : '°F' }</span> |{ " " }
                         <span id="higher-temp">{ Math.round(props.data.temperature.maximum) } { props.unit === 'metric' ? '°C' : '°F' }</span>
                     </p>
                 </div>

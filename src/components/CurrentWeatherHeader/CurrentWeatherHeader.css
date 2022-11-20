@@ -1,7 +1,11 @@
 .card-head {
-    background: rgba(11, 115, 241, 0.2);
     padding: 5px 15px 1px 15px;
     height: 40px;
+}
+
+.header-text {
+    font-style: italic;
+    opacity: 0.6;
 }
 
 .header-text {

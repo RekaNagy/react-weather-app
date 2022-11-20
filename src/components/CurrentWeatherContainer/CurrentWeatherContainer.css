@@ -4,15 +4,27 @@
             rgb(136, 199, 244) 11.2%,
             rgb(147, 199, 250) 91.1%);
     transition: all 0.7s ease-in-out;
+
 }
 
 .weather:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.card-weather {
+    background: linear-gradient(109.6deg,
+            rgb(255, 255, 255) 11%,
+            rgb(144, 184, 207) 91%);
+    border-radius: 15px;
+    transition: all 0.7s ease-in-out;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #094479 ;
+}
+
 form {
     position: relative;
-    border: 1px solid rgb(55, 154, 224);
+    border: 1px solid #90b8cf;
     border-radius: 10px;
     padding: 2px;
     height: 43px;
@@ -27,7 +39,7 @@ form {
     border: none;
     background: transparent;
     cursor: pointer;
-    color: rgb(55, 154, 224);
+    color: 094479;
 }
 
 #icon-current {

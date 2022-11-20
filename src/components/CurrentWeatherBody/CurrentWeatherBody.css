@@ -7,13 +7,13 @@
 #temp-type span {
     text-decoration: none;
     cursor: pointer;
-    color: #2772db;
+    color: #2089e5;
 }
 
 #temp-type span.active {
     text-decoration: none;
     cursor: pointer;
-    color: #070f4e;
+    color: #000000;
 }
 
 .weather-details {

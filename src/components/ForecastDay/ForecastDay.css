@@ -1,7 +1,7 @@
 .next-day {
     background: linear-gradient(109.6deg,
-            rgb(136, 199, 244) 11.2%,
-            rgb(147, 199, 250) 91.1%);
+            rgb(255, 255, 255) 11%,
+            rgb(144, 184, 207) 91%);
     /* max-width: 150px; */
     text-align: center;
     border-radius: 15px;
@@ -20,7 +20,7 @@
 .next-day .icon {
     width: 70px;
     height: 70px;
-    color: rgb(55, 154, 224);
+    color: rgb(255, 255, 255);
 }
 
 .next-day p {
@@ -30,13 +30,13 @@
 }
 
 #higher-temp {
-    color: #23508f;
+    color: #094479;
     font-size: 16px;
 }
 
 #lower-temp {
     font-size: 16px;
-    color: #2772db;
+    color:#2089e5;
 }
 
 @media (max-width: 600px) {

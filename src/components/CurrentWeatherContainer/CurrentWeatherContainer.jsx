@@ -110,7 +110,7 @@ const CurrentWeatherContainer = () => {
                     <i className="fa-solid fa-magnifying-glass"></i>
                 </button>
             </form>
-            <div className="card weather">
+            <div className="card-weather">
                 <FormatDate date={ cityDetails.date } />
                 <CurrentWeatherBody data={ cityDetails } handleCelsiusChange={ handleCelsiusChange } handleFahrenheitChange={ handleFahrenheitChange } />
             </div>

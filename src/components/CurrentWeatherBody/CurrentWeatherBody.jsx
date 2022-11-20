@@ -44,16 +44,16 @@ const CurrentWeatherBody = (props) => {
                                 </div>
                                 <div className="col-md-6 weather-details d-flex flex-column align-items-start">
                                     <p>
-                                        <strong>Pressure: </strong>
-                                        { pressure }hPa
+                                        <strong>Wind: </strong>
+                                        { wind }{ isCelsiusActive ? ' meter/sec' : ' miles/hour' }
                                     </p>
                                     <p>
                                         <strong>Humidity: </strong>
-                                        { humidity }%
+                                        { humidity } %
                                     </p>
                                     <p>
-                                        <strong>Wind: </strong>
-                                        { wind }{ isCelsiusActive ? 'meter/sec' : 'miles/hour' }
+                                        <strong>Pressure: </strong>
+                                        { pressure } hPa
                                     </p>
                                 </div>
                             </div>
