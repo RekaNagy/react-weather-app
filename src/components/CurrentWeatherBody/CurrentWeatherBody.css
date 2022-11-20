@@ -31,6 +31,12 @@
     margin: 0;
     font-weight: 600;
 }
+#weather-desc {
+    opacity: 0.6;
+    font-weight: 400;
+    font-style: italic;
+}
+
 
 #weather-desc::first-letter {
     text-transform: capitalize;
