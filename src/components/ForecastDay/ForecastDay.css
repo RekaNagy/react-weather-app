@@ -1,0 +1,46 @@
+.next-day {
+    background: linear-gradient(109.6deg,
+            rgb(136, 199, 244) 11.2%,
+            rgb(147, 199, 250) 91.1%);
+    /* max-width: 150px; */
+    text-align: center;
+    border-radius: 15px;
+    transition: all 0.7s ease-in-out;
+}
+
+.next-day:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.next-day h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.next-day .icon {
+    width: 70px;
+    height: 70px;
+    color: rgb(55, 154, 224);
+}
+
+.next-day p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#higher-temp {
+    color: #23508f;
+    font-size: 16px;
+}
+
+#lower-temp {
+    font-size: 16px;
+    color: #2772db;
+}
+
+@media (max-width: 600px) {
+    .next-day {
+        max-width: 100%;
+    }
+}

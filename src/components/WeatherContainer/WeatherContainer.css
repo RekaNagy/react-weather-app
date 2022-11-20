@@ -1,0 +1,14 @@
+.main {
+    padding: 10px;
+}
+
+.card-top {
+    width: 100%;
+    background-color: #fff;
+}
+
+.card-top .loc {
+    background-color: rgb(55, 154, 224);
+    color: #fff;
+    font-size: 14px;
+}

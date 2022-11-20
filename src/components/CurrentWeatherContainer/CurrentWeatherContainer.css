@@ -1,0 +1,53 @@
+.weather {
+    margin-top: 20px;
+    background: linear-gradient(109.6deg,
+            rgb(136, 199, 244) 11.2%,
+            rgb(147, 199, 250) 91.1%);
+    transition: all 0.7s ease-in-out;
+}
+
+.weather:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    position: relative;
+    border: 1px solid rgb(55, 154, 224);
+    border-radius: 10px;
+    padding: 2px;
+    height: 43px;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 18px;
+    top: 7px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: rgb(55, 154, 224);
+}
+
+#icon-current {
+    width: 150px;
+}
+
+#search {
+    width: 97%;
+    border: none;
+    height: 35px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+#search:focus {
+    background-color: transparent;
+}
+
+.loader {
+    margin-top: 20px;
+    justify-content: center;
+}
